@@ -104,18 +104,17 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 6rem;
-    height: 13rem;
-    border: solid black 3px;
+    height: 15rem;
     width: 100%;
 }
 .title {
     font-size: 5rem;
     font-family: myFont;
-    line-height: 60px;
+    line-height: 70px;
     margin-left: 20px;
     margin-top: 0;
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     transition: .5s;
 }
 .titleStart {
