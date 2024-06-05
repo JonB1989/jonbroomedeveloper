@@ -203,7 +203,7 @@ body {
     transform: rotate(180deg) translateY(30%);
 }
 .test {
-    height: 50rem;
+    height: 55rem;
     background-color: rgb(25, 39, 84);
     margin: 0;
     padding: 0;
