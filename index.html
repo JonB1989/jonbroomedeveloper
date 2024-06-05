@@ -120,12 +120,12 @@
     let showcaseImage = document.querySelector(".showcaseImage");
     let emailButton = document.querySelector(".emailButton");
     let portfolioButton = document.querySelector(".portfolioButton");
+    let aboutMe = document.querySelector(".aboutMeTitle");
   
     
 
     burgerMenu.addEventListener("click", ()=> mobileNav.classList.toggle("mobileNavBarActive"))
     burgerMenu.addEventListener("click", ()=> pageOne.style.backgroundColor = "rgb(199, 200, 201)")
-    burgerMenu.addEventListener("click", ()=> navbar.style.backgroundColor = "rgb(199, 200, 201)")
     exitButton.addEventListener("click", ()=> mobileNav.classList.toggle("mobileNavBarActive"))
     exitButton.addEventListener("click", ()=> pageOne.style.backgroundColor = "rgb(255, 255, 255)")
     exitButton.addEventListener("click", ()=> navbar.style.backgroundColor = "rgb(255,255,255)")
@@ -139,6 +139,7 @@
     burgerMenu.addEventListener("click", ()=> showcaseImage.style.filter = "blur(5px) brightness(80%)")
     burgerMenu.addEventListener("click", ()=> emailButton.style.filter = "blur(5px)")
     burgerMenu.addEventListener("click", ()=> portfolioButton.style.filter = "blur(5px)")
+    burgerMenu.addEventListener("click", ()=> aboutMe.style.filter = "blur(5px)")
     
 
     exitButton.addEventListener("click", ()=> title.style.filter = "blur(0px)")
@@ -148,6 +149,7 @@
     exitButton.addEventListener("click", ()=> showcaseImage.style.filter = "blur(0px)")
     exitButton.addEventListener("click", ()=> emailButton.style.filter = "blur(0px)")
     exitButton.addEventListener("click", ()=> portfolioButton.style.filter = "blur(0px)")
+    exitButton.addEventListener("click", ()=> aboutMe.style.filter = "blur(0px)")
    
     
 
