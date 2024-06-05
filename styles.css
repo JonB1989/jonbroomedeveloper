@@ -13,6 +13,11 @@ body {
     justify-content: center;
 }
 
+ @font-face {
+            font-family: myFont;
+            src: url(mogula.otf);
+        }
+
 .navbar {
     height: 70px;
     position: fixed;
