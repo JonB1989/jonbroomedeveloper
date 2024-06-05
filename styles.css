@@ -5,6 +5,11 @@ html {
     font-size: 16px;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(mogula.otf);
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
