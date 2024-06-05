@@ -223,5 +223,35 @@ body {
     margin-left: 20px;
     transition: .5s;
 }
+.aboutMeContainer {
+    height: 11rem;
+    width: 100%;
+}
+.aboutMeParagraph {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(180, 180, 180);
+    font-size: 1.05rem;
+    font-family: "poppins";
+    font-weight: 400;
+    text-align: justify;
+}
+.highlighted {
+    color: rgb(9, 228, 9);
+}
+.aboutMePortrait {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.portrait {
+    height: 15rem;
+    border-radius: 50%;
+}
 
 
