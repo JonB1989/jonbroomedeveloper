@@ -107,13 +107,13 @@ body {
     width: 100%;
 }
 .title {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: myFont;
     line-height: 80px;
     margin-left: 20px;
     margin-top: 0;
     padding: 0;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     transition: .5s;
 }
 .titleStart {
