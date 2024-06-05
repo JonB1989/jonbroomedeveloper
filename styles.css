@@ -191,4 +191,24 @@ body {
    transition: .5s;
 }
 
+.curved {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    padding:0;
+}
+.curvedTwo {
+    margin-top: 0;
+    margin:0;
+    padding: 0;
+    transform: rotate(180deg) translateY(30%);
+}
+.test {
+    height: 30rem;
+    background-color: rgb(108, 120, 160);
+    margin: 0;
+    padding: 0;
+    transform: translateY(-5%);
+}
+
 
