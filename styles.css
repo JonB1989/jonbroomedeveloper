@@ -104,11 +104,11 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     margin-top: 6rem;
-    height: 18rem;
+    height: 15rem;
     width: 100%;
 }
 .title {
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: myFont;
     line-height: 60px;
     margin-left: 20px;
